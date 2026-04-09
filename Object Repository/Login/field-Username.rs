@@ -6,23 +6,23 @@
    <elementGuidId>f5c0a2cd-0386-4824-995b-2d035e982745</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;user-name&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@data-test = 'username']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;user-name&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>089441e2-bf31-4815-b9f1-afccde19e42b</webElementGuid>
+      <webElementGuid>2f134633-b205-4d65-bf1f-27e58a7644c1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
