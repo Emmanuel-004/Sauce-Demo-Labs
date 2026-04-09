@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Verify Image Preview And Detail Same</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>72f68e7e-2ca5-4d19-bfea-794aaa961f9f</testCaseGuid>
+</TestCaseEntity>
