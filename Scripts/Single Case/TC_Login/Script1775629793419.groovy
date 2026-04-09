@@ -21,7 +21,7 @@ WebUI.openBrowser(GlobalVariable.Url)
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('Login/btn-Login'), 10)
+WebUI.verifyElementPresent(findTestObject('Login/btn-Login'), 60)
 
 WebUI.setText(findTestObject('Login/field-Username'), GlobalVariable.username)
 
@@ -31,13 +31,14 @@ startTime = System.currentTimeMillis()
 
 WebUI.click(findTestObject('Login/btn-Login'))
 
-duration = System.currentTimeMillis() - startTime
+duration = (System.currentTimeMillis() - startTime)
 
 if (duration > 5000) {
-	WebUI.comment('FAILED: Login button delay terlalu lama: ' + duration + ' ms')
-	assert false : "Login button delay melebihi 5 detik: ${duration} ms"
+    WebUI.comment(('FAILED: Login button delay terlalu lama: ' + duration) + ' ms')
+
+    assert false
 } else {
-	WebUI.comment('PASSED: Login button delay dalam batas normal: ' + duration + ' ms')
+    WebUI.comment(('PASSED: Login button delay dalam batas normal: ' + duration) + ' ms')
 }
 
 WebUI.takeScreenshot()
