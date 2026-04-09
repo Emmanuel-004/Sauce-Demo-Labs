@@ -4,16 +4,34 @@
    <name>btn-Login</name>
    <tag></tag>
    <elementGuidId>65381306-af25-459a-ba25-36545c04f257</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test = 'login-button']</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;login-button&quot;]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>login-button</value>
+      <webElementGuid>0095e747-9f95-46c8-ab5b-345fdab0cfb9</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>
