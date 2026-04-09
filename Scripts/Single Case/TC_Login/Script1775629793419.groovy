@@ -23,11 +23,11 @@ WebUI.maximizeWindow()
 
 WebUI.delay(60)
 
-WebUI.waitForElementPresent(findTestObject('Login/btn-Login'), 60)
+WebUI.waitForElementPresent(findTestObject('Login/btn-login'), 60)
 
-WebUI.setText(findTestObject('Login/field-Username'), GlobalVariable.username)
+WebUI.setText(findTestObject('Login/field-username'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('Login/field-Password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setEncryptedText(findTestObject('Login/field-password'), 'qcu24s4901FyWDTwXGr6XA==')
 
 startTime = System.currentTimeMillis()
 
