@@ -21,6 +21,8 @@ WebUI.openBrowser(GlobalVariable.Url)
 
 WebUI.maximizeWindow()
 
+WebUI.delay(60)
+
 WebUI.waitForElementPresent(findTestObject('Login/btn-Login'), 60)
 
 WebUI.setText(findTestObject('Login/field-Username'), GlobalVariable.username)
