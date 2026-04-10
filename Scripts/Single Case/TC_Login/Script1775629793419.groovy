@@ -31,7 +31,7 @@ WebUI.setEncryptedText(findTestObject('Login/field-password'), 'qcu24s4901FyWDTw
 
 startTime = System.currentTimeMillis()
 
-WebUI.click(findTestObject('Login/btn-Login'))
+WebUI.click(findTestObject('Login/btn-login'))
 
 duration = (System.currentTimeMillis() - startTime)
 

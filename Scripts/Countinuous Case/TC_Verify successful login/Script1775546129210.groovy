@@ -23,9 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.verifyElementPresent(findTestObject('Login/btn-login'), 10)
 
-WebUI.setText(findTestObject('Login/field-Username'), 'standard_user')
+WebUI.setText(findTestObject('Login/field-username'), 'standard_user')
 
-WebUI.setEncryptedText(findTestObject('Login/field-Password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setEncryptedText(findTestObject('Login/field-password'), 'qcu24s4901FyWDTwXGr6XA==')
 
 WebUI.click(findTestObject('Login/btn-Login'))
 
