@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Login/field-username'), 'standard_user')
 
 WebUI.setEncryptedText(findTestObject('Login/field-password'), 'qcu24s4901FyWDTwXGr6XA==')
 
-WebUI.click(findTestObject('Login/btn-Login'))
+WebUI.click(findTestObject('Login/btn-login'))
 
 WebUI.verifyElementVisible(findTestObject('Product/product_backpack'), FailureHandling.STOP_ON_FAILURE)
 
