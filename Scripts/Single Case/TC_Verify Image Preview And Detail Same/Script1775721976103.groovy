@@ -46,6 +46,8 @@ WebUI.takeScreenshot()
 
 WebUI.verifyElementPresent(findTestObject('image_data/Page_Swag Labs/img_product_preview'), 0)
 
+WebUI.getAttribute(findTestObject('image_data/Page_Swag Labs/img_product_preview'), '')
+
 WebUI.click(findTestObject('Product/product_test'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('image_data/Page_Swag Labs/img_product'), 0)

@@ -47,7 +47,7 @@ WebUI.verifyMatch(itemCount, '2', false)
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementVisible(findTestObject('Cart Item/cart-item-1'))
+WebUI.verifyElementVisible(findTestObject('Cart_Item/cart-item-1'))
 
 WebUI.verifyElementVisible(findTestObject('Cart/btn-checkout'))
 

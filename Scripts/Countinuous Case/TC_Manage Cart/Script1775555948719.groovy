@@ -23,17 +23,17 @@ WebUI.verifyElementVisible(findTestObject('Cart/cart-badge'))
 
 WebUI.click(findTestObject('Cart/cart'))
 
-WebUI.verifyElementVisible(findTestObject('Cart Item/cart-item-1'))
+WebUI.verifyElementVisible(findTestObject('Cart_Item/cart-item-1'))
 
-WebUI.verifyElementVisible(findTestObject('Cart Item/cart-item-2'))
+WebUI.verifyElementVisible(findTestObject('Cart_Item/cart-item-2'))
 
-WebUI.click(findTestObject('Cart Item/remove-item-2'))
+WebUI.click(findTestObject('Cart_Item/remove-item-2'))
 
 itemCount = WebUI.getText(findTestObject('Cart/cart-badge'))
 
 WebUI.verifyMatch(itemCount, '1', false)
 
-itemQty = WebUI.getText(findTestObject('Cart Item/item-qty-1'))
+itemQty = WebUI.getText(findTestObject('Cart_Item/item-qty-1'))
 
 WebUI.verifyMatch(itemQty, '1', false)
 
